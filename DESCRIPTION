@@ -1,6 +1,6 @@
 Package: LDATS
 Title: Latent Dirichlet Allocation Coupled with Time Series Analyses
-Version: 0.2.6
+Version: 0.2.7
 Authors@R: c(
     person(c("Juniper", "L."), "Simonis",
       email = "juniper.simonis@weecology.org", role = c("aut", "cre"),
@@ -38,12 +38,11 @@ LazyData: true
 Imports: coda, digest, extraDistr, graphics, grDevices, lubridate,
         magrittr, memoise, methods, mvtnorm, nnet, progress, stats,
         topicmodels, viridis
-Suggests: dplyr, here, knitr, pkgdown, rmarkdown, testthat, vdiffr,
-        clue, reshape, RCurl, tidyr
+Suggests: knitr, pkgdown, rmarkdown, testthat, vdiffr
 VignetteBuilder: knitr
 RoxygenNote: 6.1.1
 NeedsCompilation: no
-Packaged: 2020-03-03 07:22:25 UTC; dappe
+Packaged: 2020-03-19 08:59:35 UTC; dappe
 Author: Juniper L. Simonis [aut, cre] (<https://orcid.org/0000-0001-9798-0460>),
   Erica M. Christensen [aut] (<https://orcid.org/0000-0002-5635-2502>),
   David J. Harris [aut] (<https://orcid.org/0000-0003-3332-9307>),
@@ -54,4 +53,4 @@ Author: Juniper L. Simonis [aut, cre] (<https://orcid.org/0000-0001-9798-0460>),
   Weecology [cph]
 Maintainer: Juniper L. Simonis <juniper.simonis@weecology.org>
 Repository: CRAN
-Date/Publication: 2020-03-03 09:00:11 UTC
+Date/Publication: 2020-03-19 11:10:02 UTC
